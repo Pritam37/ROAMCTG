@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_patenga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Patenga Sea Beach" />
+
+                <Button
+                    android:id="@+id/btn_mohamaya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mohamaya Lake" />
+
+                <Button
+                    android:id="@+id/btn_lake"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Foy’s Lake" />
+
+                <Button
+                    android:id="@+id/btn_banshkhali"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Banshkhali Sea Beach" />
+
+                <Button
+                    android:id="@+id/btn_parki"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Parki Sea Beach" />
+
+                <Button
+                    android:id="@+id/btn_kaptai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kaptai Lake" />
+
+                <Button
+                    android:id="@+id/btn_khoiyachora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Khoiyachora Waterfalls" />
+
+                <Button
+                    android:id="@+id/btn_naval"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Naval Beach" />
+
+                <Button
+                    android:id="@+id/btn_bhatiary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bhatiary Hill" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

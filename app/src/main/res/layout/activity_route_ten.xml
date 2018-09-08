@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RouteTenActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="১. কাপ্তাই রাস্তার মাথা
+                               \n২. সি এন্ড বি
+                               \n৩. পুরান চান্দগাঁও
+                               \n৪. বাস টার্মিনাল
+                               \n৫. বহদ্দারহাট
+                               \n৬. মুরাদপুর
+                               \n৭. ২ নং গেট
+                               \n৮. জিইসি
+                               \n৯. ওয়াসা
+                               \n১০. লালখান বাজার
+                               \n১১. টাইগার পাস
+                               \n১২. দেওয়ান হাট
+                                \n১৩. চৌমুহনি
+                                \n১৪. আগ্রাবাদ
+                                \n১৫. বারিক বিল্ডিং
+                                \n১৬. বিশ্বরোড
+                                \n১৭. কাস্টম
+                                \n১৮. সল্ট গোলা
+                                \n১৯. ফ্রী-পোর্ট
+                                \n২০. সিমেন্ট ক্রসিং
+                                \n২১. কাটগড় "
+                    android:textColor="#FF293131"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RouteFourActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="১. নতুন ব্রিজ
+                                \n২. রাজাখালী
+                                \n৩. তুলাতলী
+                                \n৪. কালামিয়া বাজার
+                                \n৫. রাহাত্তার পুল
+                                \n৬. এক কিলোমিটার
+                                \n৭. চান্দগাঁও থানা
+                                \n৮. বহদ্দার হাট
+                                \n৯. মুরাদপুর
+                               \n১০. ২ নং গেট
+                               \n১১ জিইসি
+                               \n১২.ওয়াসা
+                               \n১৩.লালখান বাজার
+                               \n১৪.টাইগার পাস
+                               \n১৫.দেওয়ান হাট"
+                    android:textColor="#FF293131"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

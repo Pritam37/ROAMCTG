@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RouteThreeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ১. ফতেয়াবাদ
+                                \n ২. ফতেয়াবাদ
+                                \n ৩. চৌধুরীহাট
+                                \n ৪. বড় দিঘীর পাড়
+                                \n ৫. লালিয়ার হাট
+                                \n ৬. আমান বাজার
+                                \n ৭. বালুছড়া
+                                \n ৮. বটতলী
+                                \n ৯. চাঁদনী
+                                \n ১০.অক্সিজেন
+                                \n ১১.রৌফাবাদ
+                                \n ১২.আমীন জুটমিল
+                                \n ১৩.আতুরার ডিপু
+                                \n ১৪.হামজারবাগ
+                                \n ১৫.বিবিরহাট
+                                \n ১৬.মুরাদপুর
+                                \n ১৭.মির্জাপোল
+                                \n ১৮.পাঁচলাইশ
+                                \n ১৯.প্রবর্তক
+                                \n ২০.গোল পাহাড়
+                                \n ২১.মেহেদিবাগ
+                                \n ২২.চট্টেশ্বরী
+                                \n ২৩.আলমাস
+                                \n ২৪.কাজীর দেউরী
+                                \n ২৫.লাভ লেন
+                                \n ২৬.এনায়েত বাজার
+                                \n ২৭.তিন পোল
+                                \n ২৮.মার্কেট "
+                    android:textColor="#FF293131"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

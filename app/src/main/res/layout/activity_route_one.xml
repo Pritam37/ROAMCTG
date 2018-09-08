@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RouteOneActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text=" ১. কালুরঘাট
+                               \n ২. কাপ্তাই রাস্তার মাথা
+                               \n ৩. সি এন্ড বি
+                               \n ৪. পুরান চান্দগাঁও
+                               \n ৫. বাস টার্মিনাল
+                               \n ৬. বহদ্দারহাট
+                               \n ৭. বাদুরতলা
+                               \n ৮. কাপাসগোলা
+                               \n ৯. চকবাজার
+                               \n ১০.গুলজার স্কুল
+                               \n ১১.দেওয়ান বাজার
+                               \n ১২.সাব এরিয়া
+                               \n ১৩.আন্দরকিল্লা
+                               \n ১৪.টেরি বাজার
+                               \n ১৫.লাল দীঘি
+                               \n ১৬.কোতয়ালী"
+                    android:textColor="#FF293131"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

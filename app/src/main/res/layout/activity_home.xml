@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ctgm"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btn_hotel"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/btn_food"
+        android:layout_marginStart="35dp"
+        android:background="#a883bd9e"
+        android:drawableTop="@drawable/port1"
+        android:text="Hotel"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_food"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="63dp"
+        android:background="#a883bd9e"
+        android:drawableTop="@drawable/food5"
+        android:text="Food"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_transport"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btn_hotel"
+        android:layout_marginBottom="160dp"
+        android:background="#a883bd9e"
+        android:bufferType="spannable"
+        android:drawableTop="@drawable/transport1"
+        android:text="Transport"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_see"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/btn_food"
+        android:layout_alignTop="@+id/btn_transport"
+        android:background="#a883bd9e"
+        android:drawableTop="@drawable/hotel1"
+        android:text="Must See"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="45dp"
+        android:background="#a0565555"
+        android:drawableLeft="@drawable/gl2"
+        android:text="Search With Google"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>

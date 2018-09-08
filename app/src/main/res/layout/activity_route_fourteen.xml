@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RouteFourteenActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text=" ১. বহদ্দারহাট
+                               \n ২. বাস টার্মিনাল
+                               \n ৩. পুরান চান্দগাঁও
+                               \n ৪. সি এন্ড বি
+                               \n ৫. কাপ্তাই রাস্তার মাথা
+                               \n ৬. কুয়াইশ
+                               \n ৭. নজু মিয়া হাট
+                               \n ৮. মদুনাঘাট
+                               \n ৯. নোয়াপাড়া
+                               \n ১০.নোয়াহাট
+                               \n ১১.ব্রাহ্মণহাট
+                               \n ১২.পাহাড়তলি
+                               \n ১৩.চুয়েট"
+                    android:textColor="#FF293131"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RouteSixActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ১. লালদীঘি
+                                \n ২. মার্কেট
+                                \n ৩. টাইগার পাস
+                                \n ৪. দেওয়ান হাট
+                                \n ৫. চৌমুহনি
+                                \n ৬. আগ্রাবাদ
+                                \n ৭. বারিক বিল্ডিং
+                                \n ৮. বিশ্বরোড
+                                \n ৯. কাস্টম
+                                \n ১০.সল্ট গোলা
+                                \n ১১.ফ্রী-পোর্ট
+                                \n ১২.সিমেন্ট ক্রসিং
+                                \n ১৩.কাটগড়"
+                    android:textColor="#FF293131"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

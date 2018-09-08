@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RouteEightActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ১. অক্সিজেন
+                                \n ২. বায়োজিদ
+                                \n ৩. শেরশাহ
+                               \n  ৪. স্টিলমিল
+                               \n  ৫. টেকনিক্যাল
+                               \n  ৬. ২নং গেট
+                               \n  ৭. জিইসি
+                               \n  ৮. ওয়াসা
+                               \n  ৯. লালখান বাজার
+                               \n  ১০.টাইগার পাস
+                               \n  ১১.কদমতলি
+                               \n  ১২.বটতলি
+                               \n  ১৩.মার্কেট"
+                    android:textColor="#FF293131"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
